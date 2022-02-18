@@ -22,8 +22,7 @@ public class Problem9 {
 				if (num > max) {
 					second=max;
 					max = num;
-				}
-			if (num>second && num!=max)
+				} else if (num>second && num!=max)
 				second=num;
 			}
 		}
